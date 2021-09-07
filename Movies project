@@ -1,0 +1,15 @@
+CREATE TABLE Movies (
+    Movie name TEXT NOT NULL,
+    Actor TEXT NOT NULL,
+    Actress TEXT NOT NULL,
+    Director TEXT NOT NULL,
+    Year of release integer
+    
+);
+
+INSERT INTO Movies VALUES ('Soorarai Pottru', 'Suriya', 'Aparna Balamurali','Sudha Kongara','2020');
+INSERT INTO Movies VALUES ('Teddy', 'Arya', 'Sayyeshaa','Shakti Soundar Rajan','2021');
+INSERT INTO Movies VALUES ('Oh My Kadavule', 'Ashok Selvan', 'Ritika Singh','Ashwath Marimuthu','2020');
+INSERT INTO Movies VALUES ('Kannum Kannum Kollaiyadithaal', 'Dulquer Salmaan', 'Ritu Varma','Desingh Periyasamy.','2020');
+INSERT INTO Movies VALUES ('Asuran', 'Dhanush', 'Manju Warrier','Vetrimaaran','2020');
+SELECT * FROM Movies;
